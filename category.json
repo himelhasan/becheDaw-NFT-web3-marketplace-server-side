@@ -1,0 +1,20 @@
+[
+  {
+    "category_id": "01",
+    "name": "CryptoPunks",
+    "cat_img": "",
+    "banner_img": "https://i.seadn.io/gcs/files/d94d3428e5ca40606b304c066b6f3f14.png?auto=format&w=1920"
+  },
+  {
+    "category_id": "02",
+    "name": "Bored Ape Yacht Club",
+    "cat_img": "",
+    "banner_img": "https://cwstatic.nyc3.digitaloceanspaces.com/4777/Cryptopunks-Marketplace-Logo.jpg?v=1615897321"
+  },
+  {
+    "category_id": "03",
+    "name": "Clone X",
+    "cat_img": "",
+    "banner_img": "https://i.seadn.io/gae/4elUtz8UyFYDH34vDxd4hpQX8S-EdkFq8s9ombkuQTDBWLwHvsjRM_RXWT2zX8Vt2bAiO2BHslwN57FyTW1JIn_FyFI0BsZfmvmeJQ?auto=format&w=1920"
+  }
+]
