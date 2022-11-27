@@ -34,6 +34,15 @@ async function run() {
       res.send(result);
     });
 
+    // advertised products
+
+    app.get("/advertised", async (req, res) => {
+      const query = { advertised: true };
+      const cursor = usedProductsCollection.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
     // category
     app.get("/category", async (req, res) => {
       const query = {};
