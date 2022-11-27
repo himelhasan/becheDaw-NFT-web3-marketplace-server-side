@@ -47,9 +47,13 @@ async function run() {
     app.get("/category/:id", async (req, res) => {
       const categoryId = req.params.id;
       const query = { category_id: categoryId };
+      // const options = { category_id: categoryId };
       const cursor = usedProductsCollection.find(query);
+      const cursorTwo = ourCategories.find(query);
       const result = await cursor.toArray();
-      res.send(result);
+      const resultTwo = await cursorTwo.toArray();
+      const finalResult = [resultTwo, result];
+      res.send(finalResult);
     });
   } catch {}
 }

@@ -5,18 +5,18 @@
     "description": "Sometimes You Have Stretched UV Maps. Other Times, It’s A Broken DLC Patch. Regardless Of What Corner Of TPL Is Busted, Mechanics Have The Right Tool For The Job. They’re Expensive, But You’re Going To Have To Call Them Anyway After You Try And Fix It Yourself.",
     "resellingPrice": 0.568,
     "buyingPrice": 0.458,
-
     "postedDate": "Wed Dec 12 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Jul  19 2020 10:38:45",
 
     "category_id": "01",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -29,15 +29,16 @@
 
     "postedDate": "Wed Apr 23 2022 00:00:00",
     "booked": false,
+    "advertised": true,
     "location": "3619 20th Rd  Astoria, New York(NY), 11105",
     "purchased_year": "Sat Jul  7 2020 10:38:45",
 
     "category_id": "01",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -49,14 +50,15 @@
     "buyingPrice": 0.658,
     "postedDate": "Wed Mar 23 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "3210 W County Rd #624 Manila, Arkansas(AR), 72442",
     "purchased_year": "Sat Mar 7 2020 10:38:45",
     "category_id": "01",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -68,14 +70,15 @@
     "buyingPrice": 0.458,
     "postedDate": "Wed Jan 12 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "131 Lucas Ln Monticello, Arkansas(AR), 71655",
     "purchased_year": "Sat Mar 30 2020 10:38:45",
     "category_id": "01",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -87,14 +90,15 @@
     "buyingPrice": 0.458,
     "postedDate": "Wed Feb 22 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Dec 30 2020 10:38:45",
     "category_id": "01",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -106,15 +110,16 @@
     "resellingPrice": 0.568,
     "buyingPrice": 0.458,
     "postedDate": "Wed Feb 5 2022 00:00:00",
-    "booked": false,
+    "booked": true,
+    "advertised": true,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Dec 6 2020 10:38:45",
     "category_id": "01",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -127,14 +132,15 @@
     "buyingPrice": 9657.71,
     "postedDate": "Wed Feb 15 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Dec 12 2020 10:38:45",
     "category_id": "02",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -147,14 +153,15 @@
     "buyingPrice": 9657.71,
     "postedDate": "Wed Feb 19 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Dec 23 2020 10:38:45",
     "category_id": "02",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -167,14 +174,15 @@
     "buyingPrice": 9657.71,
     "postedDate": "Wed Jun 12 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Oct 13 2020 10:38:45",
     "category_id": "02",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -187,14 +195,15 @@
     "buyingPrice": 9657.71,
     "postedDate": "Wed Jun 2 2022 00:00:00",
     "booked": false,
+    "advertised": true,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Oct  23 2020 10:38:45",
     "category_id": "02",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -207,14 +216,15 @@
     "buyingPrice": 9657.71,
     "postedDate": "Wed Jun 26 2022 00:00:00",
     "booked": false,
+    "advertised": true,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Oct  26 2020 10:38:45",
     "category_id": "02",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -227,14 +237,15 @@
     "buyingPrice": 79068.99,
     "postedDate": "Wed Jul 1 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Jul 2 2020 10:38:45",
     "category_id": "03",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -246,14 +257,15 @@
     "buyingPrice": 83100.31,
     "postedDate": "Wed Jul  16 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Jul 16 2020 10:38:45",
     "category_id": "03",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -266,14 +278,15 @@
     "buyingPrice": 9657.71,
     "postedDate": "Wed Jul  19 2022 00:00:00",
     "booked": false,
+    "advertised": false,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Jun 26 2020 10:38:45",
     "category_id": "03",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   },
@@ -286,14 +299,15 @@
     "buyingPrice": 85846.32,
     "postedDate": "Wed Nov 11 2022 00:00:00",
     "booked": false,
+    "advertised": true,
     "location": "859 Old Grandview Rd Beaver, West Virginia(WV), 25813",
     "purchased_year": "Sat Apr 26 2020 10:38:45",
     "category_id": "03",
-    "user": [
+    "seller": [
       {
-        "userName": "WildWolf",
-        "userImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
-        "userEmail": "himelhasan497@gmail.com"
+        "sellerName": "WildWolf",
+        "sellerImg": "https://openseauserdata.com/files/77cb5444c80e8d4e5dc1d4654c8d7d43.png",
+        "sellerEmail": "himelhasan497@gmail.com"
       }
     ]
   }
