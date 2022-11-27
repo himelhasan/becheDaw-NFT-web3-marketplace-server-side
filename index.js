@@ -34,9 +34,20 @@ async function run() {
       res.send(result);
     });
 
+    // category
     app.get("/category", async (req, res) => {
       const query = {};
       const cursor = ourCategories.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    //  categorywise data
+
+    app.get("/category/:id", async (req, res) => {
+      const categoryId = req.params.id;
+      const query = { category_id: categoryId };
+      const cursor = usedProductsCollection.find(query);
       const result = await cursor.toArray();
       res.send(result);
     });
