@@ -24,9 +24,19 @@ async function run() {
       .db("bechedaw_website")
       .collection("used_product");
 
+    const ourCategories = client.db("bechedaw_website").collection("our_categories");
+    const meetingBooking = client.db("bechedaw_website").collection("meeting_booking");
+
     app.get("/allProducts", async (req, res) => {
       const query = {};
       const cursor = usedProductsCollection.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    app.get("/category", async (req, res) => {
+      const query = {};
+      const cursor = ourCategories.find(query);
       const result = await cursor.toArray();
       res.send(result);
     });
