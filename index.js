@@ -47,7 +47,7 @@ async function run() {
     app.get("/category", async (req, res) => {
       const query = {};
       const cursor = ourCategories.find(query);
-      const result = await cursor.toArray();
+      const result = await cursor.limit(6).toArray();
       res.send(result);
     });
 
