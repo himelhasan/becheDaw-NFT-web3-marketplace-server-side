@@ -1,25 +1,16 @@
-{
-  "displayName": "name",
-  "userEmail": "",
-  "phoneNumber": "phone",
-  "photoURL": "userPhoto",
-  "Address": "userAddress",
-  "userRole": "",
-  "paymentMethod": {
-    "NameOnCard": "",
-    "CardNumber": "",
-    "ExpirationDate": "",
-    "SecurityCode": ""
-  },
-  "orders": [
-    {
-      "bookingPersonEmail": "himelhasan497@gmail.com",
-      "bookingPersonName": "Himel Hasan Pro",
-      "location": "Dhania, Dhaka",
-      "productName": "MILLY HENDERSON",
-      "resellingPrice": 1.568,
-      "userPhone": "01516150533",
-      "orderTime": "Sat Nov 26 2022 23:11:38 GMT+0600 (Bangladesh Standard Time)"
+[
+  {
+    "displayName": "test",
+    "userEmail": "test@example.com",
+    "phoneNumber": "123456789",
+    "photoURL": "https://nftavatarmaker.com/assets/main-nft.png",
+    "Address": "test at testify of exmaple city in Random country",
+    "userRole": "admin",
+    "paymentMethod": {
+      "NameOnCard": "",
+      "CardNumber": "",
+      "ExpirationDate": "",
+      "SecurityCode": ""
     }
-  ]
-}
+  }
+]

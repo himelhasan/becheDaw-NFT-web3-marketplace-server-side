@@ -26,6 +26,7 @@ async function run() {
 
     const ourCategories = client.db("bechedaw_website").collection("our_categories");
     const meetingBooking = client.db("bechedaw_website").collection("meeting_booking");
+    const userRoles = client.db("bechedaw_website").collection("all_users");
 
     // products  get
     app.get("/allProducts", async (req, res) => {
@@ -98,6 +99,30 @@ async function run() {
     app.post("/booking", async (req, res) => {
       const body = req.body;
       const result = await meetingBooking.insertOne(body);
+      res.send(result);
+    });
+
+    // email based booking
+
+    app.get("/booking", async (req, res) => {
+      const email = req.query.email;
+      const query = { bookingPersonEmail: email };
+      const bookings = await meetingBooking.find(query).toArray();
+      res.send(bookings);
+    });
+
+    // user admin
+
+    app.get("/admin", async (req, res) => {
+      const query = {};
+      const cursor = userRoles.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    app.post("/admin", async (req, res) => {
+      const user = req.body;
+      const result = await userRoles.insertOne(user);
       res.send(result);
     });
   } catch {}
