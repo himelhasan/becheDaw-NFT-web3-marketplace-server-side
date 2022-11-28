@@ -60,6 +60,13 @@ async function run() {
       const result = await cursor.limit(6).toArray();
       res.send(result);
     });
+    // create category
+
+    app.post("/category", async (req, res) => {
+      const body = req.body;
+      const result = await ourCategories.insertOne(body);
+      res.send(result);
+    });
 
     //  category wise data
 
