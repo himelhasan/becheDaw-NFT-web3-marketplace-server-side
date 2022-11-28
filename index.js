@@ -85,6 +85,15 @@ async function run() {
       const finalResult = [resultTwo, result];
       res.send(finalResult);
     });
+
+    // booking data
+
+    app.get("/booking", async (req, res) => {
+      const query = {};
+      const cursor = meetingBooking.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
   } catch {}
 }
 run().catch(console.dir);
