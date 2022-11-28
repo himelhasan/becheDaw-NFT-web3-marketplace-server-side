@@ -94,6 +94,12 @@ async function run() {
       const result = await cursor.toArray();
       res.send(result);
     });
+
+    app.post("/booking", async (req, res) => {
+      const body = req.body;
+      const result = await meetingBooking.insertOne(body);
+      res.send(result);
+    });
   } catch {}
 }
 run().catch(console.dir);
