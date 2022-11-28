@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.verqpx7.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
@@ -27,10 +27,19 @@ async function run() {
     const ourCategories = client.db("bechedaw_website").collection("our_categories");
     const meetingBooking = client.db("bechedaw_website").collection("meeting_booking");
 
+    // products  get
     app.get("/allProducts", async (req, res) => {
       const query = {};
-      const cursor = usedProductsCollection.find(query);
+      const sort = { postedDate: 1 };
+      const cursor = usedProductsCollection.find(query).sort(sort);
       const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    // products post
+    app.post("/allProducts", async (req, res) => {
+      const data = req.body;
+      const result = await usedProductsCollection.insertOne(data);
       res.send(result);
     });
 
@@ -38,7 +47,8 @@ async function run() {
 
     app.get("/advertised", async (req, res) => {
       const query = { advertised: true };
-      const cursor = usedProductsCollection.find(query);
+      const sort = { postedDate: 1 };
+      const cursor = usedProductsCollection.find(query).sort(sort);
       const result = await cursor.toArray();
       res.send(result);
     });
@@ -51,16 +61,20 @@ async function run() {
       res.send(result);
     });
 
-    //  categorywise data
+    //  category wise data
 
     app.get("/category/:id", async (req, res) => {
       const categoryId = req.params.id;
-      const query = { category_id: categoryId };
-      // const options = { category_id: categoryId };
-      const cursor = usedProductsCollection.find(query);
-      const cursorTwo = ourCategories.find(query);
-      const result = await cursor.toArray();
+
+      const queryTwo = { _id: ObjectId(categoryId) };
+      const cursorTwo = ourCategories.find(queryTwo);
       const resultTwo = await cursorTwo.toArray();
+
+      const sort = { postedDate: 1 };
+      // const options = { category_id: categoryId };
+      const query = { category_id: categoryId };
+      const cursor = usedProductsCollection.find(query).sort(sort);
+      const result = await cursor.toArray();
       const finalResult = [resultTwo, result];
       res.send(finalResult);
     });
